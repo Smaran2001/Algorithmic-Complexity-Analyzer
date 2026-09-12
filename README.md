@@ -14,11 +14,11 @@ A Java-based benchmarking tool designed to visually demonstrate and compare exec
 
 ## Project Structure
 
+```text
 Algorithmic-Complexity-Analyzer/
 └── AlgorithmicComplexityAnalyzer.java   # Main benchmarking and runtime logic
-
 ## Future Improvements
 - **Algorithmic Optimizations**: Implement $O(N \log N)$ sorting-based and $O(N)$ Hash-based duplicate detection algorithms to compare with quadratic runtime.
 - **Microbenchmarking**: Integrate **JMH (Java Microbenchmark Harness)** to reduce JVM warm-up bias and improve metric accuracy.
 - **Visual Charting**: Add a lightweight UI or export runtime metrics to CSV/JSON to plot scaling charts automatically.
-```text
+```
